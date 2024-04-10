@@ -30,7 +30,7 @@ impl Config {
         let selection = Select::with_theme(theme)
             .with_prompt("Select how emojis should be used in commits:")
             .items(&[":release:", "🎉"])
-            .default(0)
+            .default(1)
             .interact()?;
 
         let emoji_format = selection != 0;
