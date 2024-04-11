@@ -1,10 +1,11 @@
 use std::fmt;
 
 /// List of emojis
-pub const EMOJIS: [Emoji<'static>; 13] = [
+pub const EMOJIS: [Emoji<'static>; 14] = [
     Emoji::new("📦️", ":build:", "Build and packaging related changes"),
     Emoji::new("👷", ":ci:", "Update to the continuous integration system"),
     Emoji::new("🔧", ":config:", "Changes to various configuration files"),
+    Emoji::new("⬆️", ":arrow_up:", "Upgrade dependencies"),
     Emoji::new("📝", ":docs:", "Documentation related changes"),
     Emoji::new("✨", ":feat:", "A new feature"),
     Emoji::new("🐛", ":fix:", "A bug fix"),
